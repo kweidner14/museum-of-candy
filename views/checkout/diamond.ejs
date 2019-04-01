@@ -1,0 +1,62 @@
+<% include ../partials/header %>
+
+<div class="container aboutContainer">
+    <header class="jumbotron">
+        <section class="container-fluid">
+            <h1>Checkout</h1>
+            <hr>
+            <p>
+            <h4 class="justify-content-between align-items-center mb-3">
+                <span class="text-muted">Your cart</span>
+                <span class="badge badge-secondary badge-pill"><i class="fas fa-shopping-cart"></i></span>
+            </h4>
+            <ul class="list-group mb-3">
+                <li class="list-group-item justify-content-between lh-condensed">
+                    <div>
+                        <h5 class="my-0">Diamond Ticket Package</h5>
+                        <small class="text-muted">
+                            <strong>Indulge</strong> in the wildest 'Sweet Tooth' experience we have to offer.<br>
+                            <strong>Engage</strong> every single one of your senses with our over-stimulating, exclusive excursions.<br>
+                            This is our <em>most desired</em> ticket package option.<br><br>
+                            A Diamond Package allows full access to the main floor of the museum,<br>
+                            as well as full access to the private lounge/concessions area</p>
+                            Every Diamond Package will come with:
+                            <div>
+                                <ul>
+                                    <li>One VIP Admission Ticket</li>
+                                    <li>Two Complimentary Concession Tickets</li>
+                                    <li>One Limited 'VIP Sweet Tooth' Laminated Lanyard</li>
+                                    <li>One Holographic 'Museum Of Candy' Poster</li>
+                                    <li>Private Lounge Access</li>
+                                    <li>'Sweet Surprise' After-party Access Ticket</li>
+                                </ul>
+                            </div>
+                        </small>
+                    </div>
+                    <span class="text-success"><strong>$45</strong></span>
+                </li>
+            </ul>
+            <hr>
+            </p>
+
+            <p>
+            <form action="your-server-side-code" method="POST">
+                <script
+                        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                        data-key="pk_test_TYooMQauvdEDq54NiTphI7jx"
+                        data-amount="4500"
+                        data-name="Museum Of Candy"
+                        data-description="Diamond Package"
+                        data-image="/imgs/lollipop-icon2.png"
+                        data-locale="auto"
+                        data-zip-code="true">
+                </script>
+            </form>
+            </p>
+        </section>
+    </header>
+</div>
+
+
+
+<% include ../partials/footer %>

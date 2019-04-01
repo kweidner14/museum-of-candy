@@ -1,0 +1,156 @@
+body {
+    background: #f5d9df;
+    font-family: 'Dosis', sans-serif;
+}
+
+span {
+    color: white;
+}
+
+.blurb h2 {
+    color: #ea1c2c;
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #f498b8;
+    font-weight: 200;
+    font-size: 1.25rem;
+    line-height: 2.0;
+}
+
+.content {
+    /*margin-top: 1px;*/
+    /*margin-bottom: 1px;*/
+}
+
+.lollipopIcon {
+    height: 4em;
+    width: 3em;
+    color: white;
+}
+
+.navbar {
+    background: none;
+    transition: background 500ms;
+}
+
+.navbar.scrolled {
+    background: rgba(222, 192, 222, 1.0);
+    transition: background 500ms;
+}
+
+.about {
+    color: #f498b8;
+    font-weight: 200;
+    font-size: 1.25rem;
+    line-height: 2.0;
+}
+
+.about-btn {
+    color: #ea1c2c;
+    font-weight: 200;
+}
+
+.about-btn.mid {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.more-btn {
+    color: #ea1c2c;
+    font-weight: 200;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.btn-md {
+    background: rgba(222, 192, 222, 1.0);
+}
+
+.btn-md:hover {
+    background: rgba(192, 162, 192, 1.0)
+}
+
+.btn-outline-primary {
+    color: rgba(222, 192, 222, 1.0);
+}
+
+.aboutContainer {
+    margin-top: 60px;
+    /*margin-bottom: 50px;*/
+    text-align: center;
+}
+
+.aboutContainer h1 {
+    color: #ea1c2c;
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+.card {
+    max-width: 768px;
+    margin: 0 auto;
+    float: none;
+}
+
+.ticketImage {
+    height: 275px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-item img {
+    margin: 0 auto;
+    width: 100%;
+    height: 350px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#returnButton {
+    float: left;
+    font-size: .8rem;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
+
+}
+
+#headingGroup span {
+    color: #ea1c2c;
+}
+
+#headingGroup h1 {
+    font-weight: 200;
+    font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 200;
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .carousel-item img {
+        margin: 0 auto;
+        width: 100%;
+        height: 175px;
+    }
+}
+
